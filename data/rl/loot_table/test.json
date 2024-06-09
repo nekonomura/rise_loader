@@ -1,0 +1,32 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cow_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": 
+              {
+                "minecraft:item_name": "{\"translate\":\"block.rise_loader.rise_crafting_table\",\"italic\":false}",
+                "minecraft:custom_model_data": 192405,
+                "minecraft:entity_data":{
+                  "id": "minecraft:glow_item_frame",
+                  "Silent":1,
+                  "Invisible":1,
+                  "Fixed":1,
+                  "Tags":[
+                    "cmd"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glow_item_frame",
+      "count": 1,
+      "components": {
+        "minecraft:custom_model_data": 192405
+      }
+    },
+    "title": {
+      "translate":"advancement.rise_loader.install",
+      "italic":false
+    },
+    "description":{
+      "translate":"advancement.rise_loader.install.description",
+      "italic":false
+    },
+    "background": "minecraft:textures/block/quartz_bricks.png",
+    "show_toast": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location"
+    }
+  }
+  }
+  

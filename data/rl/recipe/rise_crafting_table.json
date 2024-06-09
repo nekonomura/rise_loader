@@ -12,7 +12,36 @@
     "components": {
       "minecraft:item_name": "{\"translate\":\"block.rise_loader.rise_crafting_table\",\"italic\":false}",
       "minecraft:custom_model_data": 192405,
-      "minecraft:entity_data": "{Silent:1b,Invisible:1b,Tags:[\"put_new_crafting_table\",\"cmd\"]}"
+      "minecraft:entity_data":{
+        "id": "minecraft:glow_item_frame",
+        "Silent":1,
+        "Invisible":1,
+        "Fixed":1,
+        "Tags":[
+          "cmd",
+          "setblock"
+        ],
+        "Item": {
+          "count":1, 
+          "id": "minecraft:glow_item_frame",
+          "components":{
+            "minecraft:custom_model_data":192403,
+            "custom_data" : {
+              "Blockdata":{
+                "baseblock":"barrel",
+                "block_name": "{\"translate\":\"block.rise_loader.rise_crafting_table\",\"italic\":false}",
+                "break_result_pass":"rl:block/rise_crafting_table",
+                "break_result_type":"loot",
+                "custom_model_data":192405,
+                "function":"rl:block/rise_crafting_table",
+                "has_ui":true,
+                "model_item":"glow_item_frame",
+                "need_silktouch":false
+              }
+            }
+          }
+        }
+      }
     }
   }
 }

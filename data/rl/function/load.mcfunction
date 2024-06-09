@@ -4,7 +4,6 @@ advancement revoke @a only rl:inventry_changed
 advancement revoke @a only rl:inslog
 #　　　　　　　　　　　　　　　　データコマンドリスト
 #ブロック
-data modify storage rl:blocks defult set value [{namespace:rise_loader,id:testblock,}]
 #プラグイン
 data modify storage rl:pluginlist defult set value [{id:1,name:{"translate":"rl"}}]
 #　　　　　　　　　　　　　　　　スコア類
@@ -12,4 +11,6 @@ data modify storage rl:pluginlist defult set value [{id:1,name:{"translate":"rl"
 scoreboard objectives add SettingsOn trigger {"translate":"settings.on"}
 scoreboard objectives add Cmd trigger
 scoreboard players enable @a Cmd
-#/data get storage rl:pluginlist defult[{id:}].name
+#/data get storage rl:pluginlist defult[{id:{}}].name
+#/data get entity  Item.components.minecraft:custom_data
+#
