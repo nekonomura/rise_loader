@@ -1,6 +1,9 @@
 {
   "pack": {
-    "pack_format": 64,
-    "description": "rised_minecraft"
+    "pack_format": 81,
+    "description": "rised_minecraft",
+    "min_format":71,
+    "max_format":82.0,
+    "supported_formats": [71,81]
   }
 }
